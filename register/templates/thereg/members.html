@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Members
+	</title>
+    
+    
+
+<link href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Merriweather+Sans|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.js"></script>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+    
+
+        // Misc code for demo purposes
+        
+        // ----- \\
+
+    //});
+});
+</script>
+
+
+
+
+<style type="text/css">
+*{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+     }
+
+
+
+    aside{
+        position: fixed;
+        background-color: rgba(0,0,0,0.92);
+        padding-left: 2px;
+        left:0%;
+        top: 100%;
+        transform-origin: 0 0;
+        transform: translateY(-50%) rotate(-90deg);
+        z-index: 222;
+        transition: all 0.4s ease-in-out;
+
+    }
+     aside ul{
+        list-style: none;
+        margin: 0;
+        padding-left: 0;  
+     }
+     aside ul li{
+        float: left;
+
+        display: block;
+        color: #fff;
+        font-family: 'Raleway',Arial, sans-serif;
+        font-size: 17px;
+        font-variant: small-caps;
+        padding: 15px;
+        letter-spacing: 0.3em;
+        word-spacing: 0.9em;
+        border-bottom:0.5px solid #333;
+        padding-left: 23px;
+        cursor: pointer;
+        font-weight: 500; 
+
+     }
+     aside ul li:hover{
+        background-color: rgba(235, 0, 74,0.98);
+        font-weight: bolder;
+     }
+     .final{
+        background-color: rgba(235, 0, 74,0.98);
+     }
+    aside ul li a{
+        text-decoration: none;
+        color: #fff;
+        
+
+    }
+aside ul li a font{
+        transform-origin: 0 0;
+  transform: rotate(90deg)
+
+    }
+    
+
+
+
+
+
+
+	.our-team-mem{
+  
+  width: 85vw;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  z-index: 3;
+}
+.our-team-mem p{
+
+  float: right;
+  margin-right: 15px;
+
+}
+.our-team-mem p a{
+ text-decoration: none;
+ font-family: monospace;
+
+}
+
+.container{
+  
+   
+
+}
+.our-team{
+    clear:both;
+   max-width: 300px;
+
+    text-align: center;
+    transition: all 0.5s ease 0s;
+  margin-bottom: 60px;
+}
+.container .row{
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+.container .thrd-years-row{
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+.our-team:hover{
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.our-team .pic{
+    clear:both;
+    max-width: 280px;
+    max-height: 220px;
+    overflow: hidden;
+    position: relative;
+    margin:15px;
+}
+.row .col-md-4{
+   max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.our-team .pic:before,
+.our-team .pic:after{
+    content: "";
+    width: 240%;
+    height: 95%;
+    background: rgba(38,37,37,0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team .pic:after{
+    background: rgba(8,75,77,0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+.our-team:hover .pic:before{ top: 20%; }
+.our-team:hover .pic:after{ bottom: 30%; }
+.our-team .pic img{
+    width: 280px;
+    height: auto;
+
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+    overflow: visible;
+}
+.our-team:hover .social{ opacity: 1; }
+.our-team .social li{ display: inline-block;
+overflow: visible; }
+.our-team .social li a{
+  overflow: visible;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.our-team .social li a:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #db162f;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover:after{ transform: scale(0.9) rotate(180deg); }
+.our-team .team-content{
+ }
+.our-team .title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.our-team .post{
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+.buttons-container{
+  display:flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+button{
+  background-color: transparent;
+  border:none;
+  font-size: 20px;
+  vertical-align: text-top;
+  text-decoration: none;
+  color: #047168;
+  font-family: monospace;
+  
+  letter-spacing: 0.2em;
+}
+button a{
+  color: #047168;
+  text-decoration: none;
+}
+button#next{
+  margin-left: 70vw;
+  display: inline-block;
+}
+button#prev{
+  transition: none;
+
+}
+button#all{
+
+ margin-left: ;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+    button#next{
+  margin-left: 50vw;
+  display: inline-block;
+}
+
+}
+
+
+
+#thrd-year::before{
+  content: "";
+  height: 6px;
+  width: 20vw;
+  display: block;
+  position: relative;
+  background-color: #f7c554;
+  margin-left: 75%;
+  margin-bottom: 20px;
+  z-index: 777;
+}
+
+#scnd-year::before{
+  content: "";
+  height: 6px;
+  width: 20vw;
+  display: block;
+  position: relative;
+  background-color: #f7c554;
+  margin-left: 75%;
+  margin-bottom: 20px;
+  z-index: 777;
+}
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+/*header*/
+header{
+  position: relative;
+  top: 0;
+  color: #fff;
+  z-index: 222222;
+  width: 100vw;
+  font-family: 'Merriweather Sans', sans-serif;
+  letter-spacing: 2px;
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(0,0,0,0.9);
+  height: 120px;
+  overflow: hidden;
+  margin: 0;
+
+}
+header ul{
+list-style: none;
+position: relative;
+right: 70px;
+cursor: pointer;
+z-index: 22222;
+left: ;
+margin-top: 0px;
+text-decoration: none;
+padding-left: 0;
+padding-top: 0;
+  color: #fff;
+  transition: all 0.8s ease-in-out;
+
+}
+header ul li{
+  display: inline-block;
+  margin: 3px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  border-radius: 0px;
+  padding: 2px;
+  transition: all 0.15s ease-in-out;
+
+}
+header ul li:hover{
+  background-color: rgba(0,0,0,0);
+  
+  letter-spacing: 0.15em;
+}
+header ul li a{
+    text-decoration: none;
+  color: #fff;
+}
+
+header ul li a:hover{
+  color: #aaf;
+  text-decoration: none;
+}
+
+@media only screen and (max-width:880px) {
+header{
+  width: 100vw;
+}
+
+header ul{
+background-color: rgba(0,0,0,0.2);
+
+}
+header ul li{
+ font-size: 9px;
+ float: right;
+}
+
+header img{
+  width: 90px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px){
+
+    .container .row{
+        margin-left: 10%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .our-team .pic{
+        max-width: 380px;
+        max-height: 300px;
+    }
+
+
+    .our-team .pic img{
+        max-width: 420px;
+    }
+}
+</style>
+
+
+</head>
+<body>
+
+
+
+
+<header style="display: block;">
+  <div class="logo" style="float: left; padding-left: 30px;"><img src= "http://i.xp.io/yO2IRLu.svg+xml" height="140px"></div>
+  <ul id="header-list" style="float: right; padding-top: 30px;">
+    <!--/media/images/ieeesb_logo.svg-->
+
+          <li><a class="navbar" href="{% url 'index' %}">Home</a></li>
+           <li><a class="navbar" href="">Blog</a></li>
+
+            <li><a class="navbar" href="">Notifications</a></li>
+          
+          <li><a class="navbar" href="{% url 'admin:index' %}">Admin</a></li>
+               
+          {# Some logic on what to display for last item#}
+          {% if user.is_authenticated %}
+            <li><a href="#">Welcome {{ user.username }}!</a></li>
+            <li><a href="{% url 'logout' %}">Logout</a></li>
+            
+          {% else %}
+          <li><a class="navbar" href="{% url 'thereg:register' %}">Register</a></li>
+            <li><a class="navbar" href="{% url 'thereg:user_login' %}">Login</a></li>
+          {% endif %}
+    </ul>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<aside>
+    <ul>
+        <li class="scnd"><a href="#scnd-year"><font>Junior members</font></a></li>
+        <li class="thrd"><a href="#thrd-year"><font>Senior members</font></a></li>
+        <li class="final"><a href="#final-year"><font>Team Heads</font></a></li>
+        
+    </ul>
+
+
+</aside>
+
+
+
+
+
+
+
+<section class="our-team-mem" id="final-year">
+  <span id="members-heading theitem" style=" 
+   margin:25px;
+   text-align: center;
+  padding-bottom: 40px;
+  color: #f7c554;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 900;
+  font-size: 55px;
+  display: block;
+  margin-left: 0;
+  cursor: crosshair;
+
+  "><font style="">OUR </font><font style="text-decoration: underline; text-underline-position:under;">TEAM     </font><font style="font-size: 0px; text-decoration: underline;">..</font></span>
+  
+  <div class="wrapper-it theitem">
+    
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 ignoreMe">
+            <div class="our-team " >
+                <div class="pic ignoreMe">
+                    <img class="ignoreMe " src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Animesh Dutta</h3>
+                    <span class="post ignoreMe">Chair-Man</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+              <div class="our-team ">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/cvMpbg2.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Abhisekh Singh</h3>
+                    <span class="post ignoreMe">Vice Chair-Man</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+            <div class="our-team">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/cvCVnZk.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Monsij Biswal</h3>
+                    <span class="post ignoreMe">Secretary</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+              <div class="our-team" id="targetCard">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/cvZrxRL.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Amitava Das</h3>
+                    <span class="post ignoreMe">Treasurer</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvMpbg2.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Prateeke Chatterjee</h3>
+                    <span class="post">c</span>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvPyZN7.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Subhadeep Chandra</h3>
+                    <span class="post">W</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvRKe8t.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Tomoghno </h3>
+                    <span class="post">W</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+             <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Anunmoy Ganguly</h3>
+                    <span class="post">Co-convenor</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+           <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Ishani Nag</h3>
+                    <span class="post">Convenor</span>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+</div>
+</div>
+
+</section>
+
+
+
+<section class="our-team-mem" id="thrd-year">
+ 
+  <div class="wrapper-it theitem">
+    
+  <div class="container">
+    <div class="row thrd-years-row">
+        <div class="col-md-4 col-sm-6 ignoreMe">
+            <div class="our-team " >
+                <div class="pic ignoreMe">
+                    <img class="ignoreMe " src="http://i.xp.io/hlu9bW0.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Subhayan Akhuli </h3>
+                    <span class="post ignoreMe">Senior Member</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+              <div class="our-team ">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/hlAy63M.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Sugata Mondal</h3>
+                    <span class="post ignoreMe">Senior Member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+            <div class="our-team">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/hlPiZ7G.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Anurag Sarkar</h3>
+                    <span class="post ignoreMe">Senior Member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+              <div class="our-team" id="targetCard">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/hlXaFKC.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Santaneel Halder</h3>
+                    <span class="post ignoreMe">Senior Member</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/hmbMTB6.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Arka Bera</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/hmwa7ED.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Rohan Chowdhury</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/hmdLQiZ.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Sourav Nag</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+             <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/hn2KtTC.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Sudeshna Gun</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+           <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/hn4F6l4.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Sutirtha Chowdhury</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+         
+    
+    <div class="col-md-4 col-sm-6">
+           <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Souvik Kundu</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+         
+    
+    <div class="col-md-4 col-sm-6">
+           <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/hpdLLND.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Soumik Paul</h3>
+                    <span class="post">Senior Member</span>
+                </div>
+            </div>
+        </div>
+         
+    
+      </div>
+
+</div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="our-team-mem" id="scnd-year">
+  
+  <div class="wrapper-it theitem">
+    
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 ignoreMe">
+            <div class="our-team " >
+                <div class="pic ignoreMe">
+                    <img class="ignoreMe " src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Mohit Kochar</h3>
+                    <span class="post ignoreMe">Junior member</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+              <div class="our-team ">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/cvMpbg2.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Pritish singhal</h3>
+                    <span class="post ignoreMe">Junior member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+            <div class="our-team">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/cvCVnZk.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Shalini Satapaty</h3>
+                    <span class="post ignoreMe">Junior member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 ignoreMe">
+              <div class="our-team" id="targetCard">
+                <div class="pic ignoreMe">
+                    <img src="http://i.xp.io/cvZrxRL.jpg" class="ignoreMe">
+                    <ul class="social ignoreMe">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content ignoreMe">
+                    <h3 class="title ignoreMe">Gagan Gautam</h3>
+                    <span class="post ignoreMe">Junior member</span>
+                </div>
+            </div>
+        </div>
+         <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvMpbg2.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Atul Tiwary</h3>
+                    <span class="post">Junior member</span>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvPyZN7.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Subhangee</h3>
+                    <span class="post">Junior member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvRKe8t.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Khushi Bansal</h3>
+                    <span class="post">Junior member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+             <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Vimal Dubey</h3>
+                    <span class="post">Junior member</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+           <div class="our-team">
+                <div class="pic">
+                    <img src="http://i.xp.io/cvyyFC5.jpg">
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="#" class="fab fa-instagram"></a></li>
+                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Dhrubojyoti Roy</h3>
+                    <span class="post">Junior member</span>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+</div>
+</div>
+
+</section>
+
+
+
+
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg" style="position: absolute; left: 20%; top: 60%; transform: rotate(-12deg); z-index: -2; opacity: 0.6;" class="rellax" data-rellax-speed="-9">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m99.007504,162.110177l34.185315,-33.70041l36.31453,35.799129l36.31453,-35.799129l34.185636,33.70041l-36.314539,35.799423l36.314539,35.799423l-34.185636,33.700726l-36.31453,-35.799432l-36.31453,35.799432l-34.185315,-33.700726l36.314232,-35.799423l-36.314232,-35.799423z" stroke-width="0" stroke="#000" fill="#ff5d00"/>
+ </g>
+</svg>
+
+
+
+
+
+
+<svg width="349" height="90" xmlns="http://www.w3.org/2000/svg" style="position: absolute;right: 40px; top: 160vh; transform: rotate(-26deg); z-index: 23; opacity: 0.7;" class="rellax" data-rellax-speed="3">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="90" width="349" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" id="svg_2" d="m43.742597,288.468878l226.999991,-284.999992l226.999991,284.999992l-453.999982,0z" stroke-opacity="null" stroke-width="0" fill="#ff5d00"/>
+ </g>
+</svg>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script type="text/javascript">
+    jQuery(document).ready(function ($){
+
+       var teamcardHeight =document.getElementById('targetCard').offsetHeight;
+       $(".our-team").css("height",teamcardHeight+32+"px");
+
+    })
+</script>
+
+
+
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($){
+
+        $(".our-team").hover(function(){
+            $("aside").css("opacity","0").css("z-index","-22");
+        }, function(){
+            $("aside").css("opacity","1").css("z-index","222");
+        }
+        )
+
+
+    })
+</script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($){
+
+       var finalyearHeight =document.getElementById('final-year').offsetHeight;
+       var scndyearHeight =document.getElementById('scnd-year').offsetHeight;
+       var thrdyearHeight =document.getElementById('thrd-year').offsetHeight;
+
+       
+
+        
+         $(window).scroll(function(){
+            var scrollTop = $(window).scrollTop();
+       if(scrollTop<finalyearHeight){
+        
+        $(".final").css("background-color","rgba(235,0,74,0.99)")
+        $(".thrd").css("background-color","transparent")
+        $(".scnd").css("background-color","transparent")
+       }
+       else if(scrollTop>finalyearHeight && scrollTop<(thrdyearHeight+finalyearHeight)){
+        $(".thrd").css("background-color","rgba(235,0,74,0.99)")
+        $(".final").css("background-color","transparent")
+        $(".scnd").css("background-color","transparent")
+       }
+        else if(scrollTop>(thrdyearHeight+finalyearHeight)){
+         
+        $(".scnd").css("background-color","rgba(235,0,74,0.99)")
+        $(".final").css("background-color","transparent")
+        $(".thrd").css("background-color","transparent")
+       }
+       });
+
+    })
+</script>
+
+
+<script>
+  // Start Rellax
+  var rellax = new Rellax('.rellax');
+
+  // Destroy and create again parallax with previous settings
+  rellax.refresh();
+</script>
+</html>

@@ -1,0 +1,22 @@
+{% extends 'thereg/base.html' %}
+{% block body_block %}
+  <div class="container reg-container">
+    <div class="jumbotron">
+      <h1>Login here :</h1>
+<form method="post" action="{% url 'thereg:user_login' %}">
+          {% csrf_token %}
+          {# A more "HTML" way of creating the login form#}
+          <label for="username">Username:</label>
+          <input type="text" name="username" placeholder="Username">
+<label for="password">Password:</label>
+          <input type="password" name="password" placeholder="Password">
+<input type="submit" name="" value="Login" style="background-color: transparent; border: 2px solid #fff; border-radius: 25px; margin-top: 15px; color: #fff; width: 120px;" class="login">
+</form>
+
+
+   <br>
+  <p></p>
+  <a href="{% url 'social:begin' 'google-oauth2' %}" style="text-decoration: none; color: #fff; display: block; padding: 10px; background-color: rgba(0,0,0,0.2); width: 200px; text-align: center; border-radius: 20px;"><i class="fa fa-google" style="font-size: 18px; padding-right: 2px;"></i>   Login with Google</a><br>
+</div>
+  </div>
+{% endblock %}
